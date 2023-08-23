@@ -1,0 +1,64 @@
+@media screen and (max-width:645px){
+    .space{
+        height: 145px;
+        display: flex;
+        margin: 5px;
+    }
+    #icon2{
+        height: 33vh;
+    }
+    .glitch{
+        left: 0px;
+      
+    }
+    nav ul{
+        margin: 8px 0px;
+    }
+    .search{
+        margin: 1px 0px;
+    }
+}
+
+@media screen and (max-width:496px){
+    .card-item{
+        height: 390px;
+    margin: 15px 3px;
+
+    }
+    .lines{
+        /* max-width: fit-content; */
+        width: 30vw;
+        margin: 3px 0px;
+        font-size: 13px;
+       }
+    nav ul{
+        display: none;
+    }  
+    .space{
+        height: 97px;
+    } 
+}
+@media screen and (max-width:1200px){
+   
+   .lines{
+    max-width: 14vw;
+    margin: 3px 0px;
+   }
+    
+}
+
+@media screen and (max-width:388px){
+   
+   .card-item{
+    width: 80vw;
+   }
+   .lines{
+      max-width: fit-content;
+   }
+   .my-2 {
+    margin: 26px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+   }
+}
+    
